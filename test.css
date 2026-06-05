@@ -291,6 +291,7 @@ main h3{
 }
 
 .langages{
+
     background-color: #0D1E4F;
     padding: 3%;
     margin:2% 2% 0% 2%;
@@ -316,9 +317,6 @@ footer{
 
     font-size: 1vw;
 }
-
-
-
 .formulaire {
     align-items: center;
     justify-content: center;
@@ -329,7 +327,6 @@ footer{
 }
 
 input{
-    
     color: var(--ivoir);
     padding: 0px;
     background-color: #343434;
@@ -387,21 +384,27 @@ button:active{
 }
 
 .vagueHaut img{
-    position:absolute;
-    bottom:-25%;
+    position:relative;
+    top:-5vW;
     left:-10%;
+    width: 150%;
+    height: auto;
     z-index: 2;
 }
 .vagueBas img{
-    position:absolute;
-    bottom:-90%;
-    left:-11%;
+    position:relative;
+    top:0vh;
+    width: 150%;
+    height: auto;
 }
+
 .vagueViolet img{
-    position:absolute;
-    bottom:-590%;
-    left:-11%;
+    position:relative;
+    top:-5vw;
+    width: 150%;
+    height: auto;
 }
+
 
 .images {
     pointer-events: none;
